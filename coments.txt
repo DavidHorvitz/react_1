@@ -1,0 +1,27 @@
+1 
+צריך להכניס את שלושת הקישורים האלו לדף 
+HTML
+ <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+2
+להכניס תגית עם id
+ואז לייצר אותה בסקריפט אחרי ה budy
+
+3
+המתודה הזאת מקבלת שני ארגומנטים
+ JSX
+שזה תגיות html 
+שממורות לשפה שjs מכירה
+והשני זה האלמנט שבו תהיה האפלקציה
+
+
+    const target = document.getElementById('content');
+    const value = <h1>Hello World!</h1>
+     
+    ReactDOM.render(
+
+        value,
+        target
+    );
+
